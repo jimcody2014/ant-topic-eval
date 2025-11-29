@@ -1,0 +1,7 @@
+brew install python@3.10
+python3.10 --version
+python3.10 -m venv .venv
+source .venv/bin/activate
+python --version
+pip install --upgrade pip
+pip install -r requirements.txt
